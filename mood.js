@@ -15,9 +15,9 @@ function getRandomMood() {
   });
 
   function getRandomThings() {
-    const things = ['Pizza', 'Coffee', 'Sleep', 'Go to the beach', 
-                    'Watch a movie', 'Lay down', 'Listening to music',
-                    'Karoke', 'Roadtrip', 'Date night'];
+    const things = ['Eat pizza', 'Get coffee', 'Sleep', 'Go to the beach', 
+                    'Watch a movie', 'Lay down', 'Listen to music',
+                    'Go karoke', 'Go on a roadtrip', 'Date night'];
     const randomIndex2 = Math.floor(Math.random() * things.length);
     return things[randomIndex2];
   }
