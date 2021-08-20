@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    font-family: monospace;
+    
+    /* Sets the background to an AI cat image, and lowers the opacity */
+    background-image: url('https://www.whats-your-sign.com/wp-content/uploads/2018/04/Rainbow6.jpg');
+    background-size:auto;
+    background-color:rgba(255, 255, 255, 0.377);
+    background-blend-mode: lighten;
+}
+
+.green-button {
+    padding: 32px;
+    border-color: purple;
+    border-radius: 50px;
+    background-color:rgb(red, green, blue);
+    color:purple;
+    font-weight: bold; 
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+/* When we hover over the button, darken its color */
+.green-button:hover {
+    background-color: purple;
+    color:white;
+    cursor: pointer;
+    border-color: white;
+  }
+
+.my-header {
+    margin-top: 64px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 64px;
+}
+
+.large-mood {
+    font-size: 64px;
+    margin: 32px;
+}
+
+.pink-button {
+    padding: 25px;
+    border-color: purple;
+    border-radius: 50px;
+    background-color:rgb(red, green, blue);
+    color:purple;
+    font-weight: bold; 
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+.pink-button:hover {
+    background-color: purple;
+    color:white;
+    cursor: pointer;
+    border-color: white;
+  }
+
+
+.large-feel {
+    font-size: 50px;
+    margin: 32px;
+}
